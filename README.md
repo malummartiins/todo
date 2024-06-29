@@ -1,6 +1,4 @@
-Aqui está o seu README melhorado e formatado:
 
----
 
 # Lista de Tarefas com ReactJS
 
