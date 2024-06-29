@@ -26,6 +26,7 @@ function App() {
     }
   ]);
 
+//função para criar tarefa 
 const addTodo = (text, category) => {
 
   const newTodos = [...todos, {
@@ -40,13 +41,30 @@ setTodos(newTodos);
 
 };
 
+//função para remover
+const removeTodo = (id) =>{
+  const newTodos = [...todos]
+  const filteredTodos = newTodos.filter(todo => todo.id !== id ? todo : null)
+
+setTodos(filteredTodos);
+};
+
+//função para completar uma tarefa
+const completeTodo = (id) =>{
+  const newTodos = [...todos]
+  newTodos.map((todo) => todo.id === id ? todo.isCompleted = !todo.isCompleted : todo)
+  setTodos(newTodos);
+}
+
+
+
 
   return (
     <div className='app'>
     <h1>Lista de Tarefas</h1>
     <div className='todo-list'>
       {todos.map((todo) => (
-        <Todo key={todo.id} todo={todo} />
+        <Todo key={todo.id} todo={todo} removeTodo={removeTodo} completeTodo = {completeTodo}/>
       ))}
     </div>
     <TodoForm addTodo = {addTodo} />
