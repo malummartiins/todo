@@ -37,6 +37,7 @@ button{
   background-color: #9d673a;
   color: #fff;
   padding: 5px 10px;
+  margin-right: 10px;
   border: none;
   border-radius: 3px;
   cursor: pointer;
@@ -54,6 +55,23 @@ button:hover{
 
 .remove{
   background-color: #d9534f;
+}
+
+.todo-list{
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #555;
+}
+
+.todo{
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  padding:  10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .todo-form{
