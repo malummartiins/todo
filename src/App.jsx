@@ -72,8 +72,8 @@ const completeTodo = (id) =>{
   return (
     <div className='app'>
     <h1>Lista de Tarefas</h1>
-    <Search search={search} setSearch={setSearch}/>
-    <Filter filter={filter} setFilter={setFilter} />
+    <Search search={search} setSearch={setSearch}/> 
+    <Filter filter={filter} setFilter={setFilter}/>
     <div className='todo-list'>
       {todos
       .filter((todo)=> 
