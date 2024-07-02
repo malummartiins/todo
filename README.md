@@ -24,6 +24,9 @@ ReactJS facilita a criação de interfaces de usuário dinâmicas, proporcionand
 
 O projeto oferece uma interface amigável que simplifica a criação e gestão de tarefas, aumentando a produtividade no trabalho e nos estudos. Com funcionalidades avançadas de filtro e ordenação, é possível organizar suas tarefas de maneira estratégica e otimizada.
 
+## Em ação:
+<video controls src="20240702-1739-42.1711914.mp4" title="Title"></video>
+
 ## Como Utilizar
 
 1. **Instalação:**
@@ -36,7 +39,7 @@ O projeto oferece uma interface amigável que simplifica a criação e gestão d
    npm start
    ```
 
-3. Acesse a aplicação em `http://enderecoondevouhospedar.com` no seu navegador.
+3. Acesse a aplicação em `https://todo-livid-mu-72.vercel.app/` no seu navegador.
 
 ---
 
